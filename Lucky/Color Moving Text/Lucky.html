@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky</title>
+
+    </head>
+    <style>
+        body{background-color:black;}
+            .lucky{
+            background-image: linear-gradient(to right,red,blue,green,purple,yellow,orange,#0c5b6d);
+            -webkit-background-clip:text ;
+            color: transparent;
+            background-size: 300%;
+            background-position: -100%;
+            animation: animatedText 10s infinite alternate-reverse;
+            font-size: 110px;
+            font-weight: bolder;
+            margin-top: 20px;
+        }
+        @keyframes animatedText{
+            to{
+                background-position: 100%;
+            }
+        }
+    </style>
+    <body>
+        <h1 class="text-center lucky"><b> LakshmiNarayana Konanki </b> </h1>
+    </body>
+</html>
